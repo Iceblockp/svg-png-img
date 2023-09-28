@@ -25,6 +25,7 @@ main .svg-animate {
     margin-left: 5vw;
     box-shadow: 0 0 1px black;
     display: flex;
+    flex-wrap: wrap;
 }
 
 .svg-icon{
