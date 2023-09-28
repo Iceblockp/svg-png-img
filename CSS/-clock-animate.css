@@ -1,0 +1,52 @@
+
+
+main .svg-animate {
+    width: 200px;
+    height: auto;
+    /* box-shadow: 0 0 10px black inset; */
+    border-radius: 20px;
+    margin: 10px;
+    text-align: center;
+    font-weight: bold;
+}
+.icon{
+    width: 100vw;
+    height: 100%;
+    position: relative;
+    /* background: gray; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: capitalize;
+}
+.all-icon{
+    width: 90vw;
+    height: auto;
+    margin-left: 5vw;
+    box-shadow: 0 0 1px black;
+    display: flex;
+}
+
+.svg-icon{
+    width: 70px;
+    height: 70px;
+    margin: 10px;
+    display: flex;justify-content: center;
+    align-items: center;
+    /* background-color: gray; */
+    transition: 0.5s;
+}
+.svg-icon:hover{
+    scale: 1.1;
+   
+}
+.svg-img{
+    width: 50px;
+    height: auto;
+    box-shadow: 0 0 10px black;
+    border-radius: 20px;
+    margin: 10px;
+    text-align: center;
+    font-weight: bold;
+    border: none;
+}

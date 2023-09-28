@@ -1,0 +1,75 @@
+@import "./_logo.css";
+@import "./_menu.css";
+@import "./_sin-in.css";
+@import "./_media.css";
+@import "./_search.css";
+@import "./_main.css";
+@import "./-clock-animate.css";
+@import "./_individual.css";
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css);
+
+
+
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+
+}
+header{
+    width: 100vw;
+    min-height: 100px;
+    /* background: gray; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.bar{
+    display: none;
+    background: transparent;
+    border: none;
+}
+
+@media screen and (max-width: 700px){
+    header{
+        /* background-color: blue; */
+        position: relative;
+    }
+    .logo{
+        position: absolute;
+    }
+
+    .menu{
+        position: absolute;
+        left: 0px;
+        bottom: 0;
+    }
+    .menu ul{
+        background-color: #d7d7d7;
+        position: absolute;
+        display: none;
+        padding: 10px;
+    }
+    .sign{
+        position: absolute;
+        right: 30px;
+    }
+    .bar{
+        display: block;
+        position: absolute;
+        left: 0;
+    }
+    .bar i{
+        padding: 10px;
+        font-size: 2em;
+    }
+  .individual{
+    width: 90vw;
+    height: 90vw;
+    position: fixed;
+  }
+}

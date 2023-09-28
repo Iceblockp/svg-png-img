@@ -1,0 +1,20 @@
+
+
+.search{
+    width: 100vw;
+    min-height: 60px;
+    /* background: green; */
+    display: flex;
+    justify-content: center;
+    padding: 10px 0px;
+
+}
+.search-bar{
+    width: 80%;
+    border-radius: 20px;
+    border: 1px solid black;
+    border-color: rgb(194, 193, 193);
+    padding: 10px 20px;
+   
+
+}

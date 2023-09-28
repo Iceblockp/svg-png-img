@@ -1,0 +1,11 @@
+.sign{
+    width: 10%;
+}
+.sign a{
+    text-decoration: none;
+    color: black;
+}
+
+.sign a:hover{
+    color: blue;
+}
